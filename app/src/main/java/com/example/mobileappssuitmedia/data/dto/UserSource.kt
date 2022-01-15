@@ -1,5 +1,6 @@
 package com.example.mobileappssuitmedia.data.dto
 
+import androidx.annotation.Keep
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
 

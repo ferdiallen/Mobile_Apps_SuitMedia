@@ -77,9 +77,9 @@ fun ThirdScreen(nav: NavHostController, vm: ThirdViewModels = hiltViewModel()) {
                 )
             }
         } else {
-            SwipeRefresh(
+          SwipeRefresh(
                 state = rememberSwipeRefreshState(isRefreshing = refreshResult.value),
-                onRefresh = { vm.loadData() }) {
+               onRefresh = { vm.loadData() }) {
                 LazyColumn(
                     horizontalAlignment = Alignment.CenterHorizontally,
                     modifier = Modifier.fillMaxWidth()

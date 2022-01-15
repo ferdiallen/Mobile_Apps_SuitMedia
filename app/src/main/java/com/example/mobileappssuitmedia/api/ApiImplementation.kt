@@ -17,6 +17,9 @@ class ApiImplementation(private val Http: HttpClient) : ApiService {
             return UserSource(emptyList(), 0, 0, 0, 0, UserSource.Support("", ""))
         } catch (e: HttpException) {
             return UserSource(emptyList(), 0, 0, 0, 0, UserSource.Support("", ""))
+        }catch (e:Exception){
+            println("Error ${e.message}")
+            return UserSource(emptyList(), 0, 0, 0, 0, UserSource.Support("", ""))
         }
     }
 }
