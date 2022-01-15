@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Mobile Apps SuitMedia</string>
+    <string name="secondscreen">Second Screen</string>
+    <string name="greetingssecondscreen">Welcome</string>
+    <string name="btnchooseuser">Choose a User</string>
+    <string name="thirdscreens">Third Screen</string>
+    <string name="nextpage">Next Page</string>
+    <string name="nametextkeyboard">Name</string>
+    <string name="paliandrometext">Palindrome</string>
+    <string name="namewarning">Nama harus terisi</string>
+    <string name="paliandromedetected">isPaliandrome</string>
+    <string name="notpaliandrome">not Paliandrome</string>
+</resources>
